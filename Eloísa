@@ -1,0 +1,19 @@
+ALGORITMO "somar e escrever se a soma é maior, ou igual a 10"
+VAR
+valor: real soma: real
+INÍCIO
+5oma く-
+ESCREVA ("Digite um 'valor' ou e para parar:")
+LEIA valor
+ENQUANTO valor ‹> e FAÇA
+soma ‹- soma + valor
+ESCREVA ("Soma atual: soma")
+ESCREVA ("Digite um 'valor' ou e para parar:")
+LEIA valor
+FIMENQUANTO
+SE soma > 10 ENTÃO
+ESCREVA ("Soma é maior que 10")
+SENÃO
+ESCREVA ("Soma é menor ou igual a 10")
+FIMSE
+FIMALGORITMO
